@@ -2,10 +2,22 @@
 using namespace std;
 
 int main() {
-    string nome;
-    cout << "Inserisci il tuo nome: ";
-    cin >> nome;
-    cout << "Ciao " <<nome<< "!" << endl;
-}
-
-//LEGGERE LE ISTRUZIONI NEL FILE README.md
+    int i,j, somma;
+    int matrice [3][3];
+    somma=0;
+    for(i=0;j>3;i++)
+    {
+       cout << "Inserisci l'elemento "<<i+1<<","<<j+1<<" della matrrice:";
+       cin>>matrice[i][j];
+       somma=somma+matrice[i][j];   
+    }   
+    cout << "la matrice è: "<< endl;
+    for(i=0;j<3;i++)
+    {
+        for(j=0;j<3;i++)
+        {
+            cout<<matrice[i][j];
+        }
+        cout<< " la somma è : " <<somma<<;
+        }
+    }
